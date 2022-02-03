@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Registro do Usuário</h2>
+
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome"> <br> <br>
+
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome"> <br> <br>
+
+        <label for="email" id="email">E-mail</label>
+        <input type="email" id="email" placeholder="mail@mail.com"> <br><br>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha"><br><br>
+
+        <label for="">Escolha uma cor</label>
+        <input type="color" id="cor"> <br><br>
+
+        <label for="check">Eu aceito todos os termos</label>
+        <input type="checkbox" id="check">>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
+        <hr><br>
+
+        <h2>Informe seu sexo</h2>
+        <input type="radio" name="sexo" id=m>
+        <label for="m">Masculino</label><br>
+        <input type="radio" name="sexo" id=f>
+        <label for="f">Feminino</label><br>    
+    </form>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="digite seu nome...">
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" placeholder="digite seu sobrenome...">
+            <br><br>
+            <label for="sexo">Sexo</label>
+            <select id="sexo">
+            <option value="M">
+                Masculino
+            </option>
+            <option value="F">
+                Feminino
+            </option></select><br><br>
+
+            <label for="age">Idade</label>
+                <input type="number" id="age">
+
+
+        </fieldset>
+    </form>
+    
+
+</body>
+</html>
